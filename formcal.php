@@ -56,7 +56,7 @@
         mysqli_query($conn, "set character_set_client=utf8mb4");
         mysqli_query($conn, "set character_set_results=utf8mb4");
 
-        $sql = "insert into customer(customerName, customerAddress, customerEmail, customerTelephone) values ('$fullname', '$address', '$email', '$tel')";
+        $sql = "insert into customer(customerName, customerAddress, customerEmail, customerTel) values ('$fullname', '$address', '$email', '$tel')";
 
         mysqli_query($conn, $sql) or die("insert ลดตาราง customer มีข้อผิดพลาดเกิดขึ้น" .mysqli_error());
 

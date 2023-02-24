@@ -47,7 +47,7 @@
         echo '<td align="left">'.$rs["customerName"].'</td>';
         echo '<td align = "left">'.$rs["customerAddress"].'</td>';
         echo '<td align="left">'.$rs["customerEmail"].'</td>';
-        echo '<td align="">'.$rs["customerTelephone"].'</td>';
+        echo '<td align="">'.$rs["customerTel"].'</td>';
 
         echo '<td><a href="CTMupdate.php?customerID='.$rs["customerID"].'">[แก้ไข]</a></td>';
 
